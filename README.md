@@ -58,13 +58,17 @@ Response would be data about the movie located in the log.txt file.
 > #Spotify API keys
 >
 > SPOTIFY_ID=your-spotify-id
+>
 > SPOTIFY_SECRET=your-spotify-secret
 >
 > #Twitter API keys
 >
 > TWITTER_CONSUMER_KEY=your-twitter-consumer-key
+>
 > TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret
+>
 > TWITTER_ACCESS_TOKEN_KEY=your-access-token-key
+>
 > TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
 4. Change the variables to match your keys
 5. Make sure to add .env file to your .gitignore if uploading to Github
