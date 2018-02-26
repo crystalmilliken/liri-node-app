@@ -3,7 +3,7 @@
 ## **This application was created to perform 3 main actions.**
 1. Access my Twitter account and return the most recent 10 tweets.
 2. Make a request to Spotify based on user requested song and return the following data: 
-    * Arist name
+    * Artist name
     * Song title
     * Preview link of the song from Spotify
     * Album name
@@ -13,7 +13,7 @@
     * IMDB rating
     * Rotten Tomatoes
     * Rating
-    * Country where it was produced,
+    * Country where it was produced
     * Language
     * Plot
     * Actors
@@ -33,6 +33,14 @@ Response would be data about "Remember"
 > node liri "movie-this" "IT"
 >
 Response would be data about the movie "IT"
+- Input:
+> node liri "my-tweets"
+>
+Response would be latest 10 tweets
+- Input:
+> node liri "do-what-it-says"
+>
+Response would be data about the movie located in the log.txt file. 
 
 ## Packages used
 1. colors - https://www.npmjs.com/package/colors
@@ -46,15 +54,18 @@ Response would be data about the movie "IT"
 1. clone repo
 2. install dependencies
 3. create an .env file containing environment variables:
-####Spotify API keys
-SPOTIFY_ID=your-spotify-id
-SPOTIFY_SECRET=your-spotify-secret
 
-####Twitter API keys
-TWITTER_CONSUMER_KEY=your-twitter-consumer-key
-TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret
-TWITTER_ACCESS_TOKEN_KEY=your-access-token-key
-TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
+> #Spotify API keys
+>
+> SPOTIFY_ID=your-spotify-id
+> SPOTIFY_SECRET=your-spotify-secret
+>
+> #Twitter API keys
+>
+> TWITTER_CONSUMER_KEY=your-twitter-consumer-key
+> TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret
+> TWITTER_ACCESS_TOKEN_KEY=your-access-token-key
+> TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
 4. Change the variables to match your keys
 5. Make sure to add .env file to your .gitignore if uploading to Github
 
